@@ -13,7 +13,10 @@
 | Identificador | Propósito | Entradas | Salidas esperadas |
 | ------------- | --------- | -------- | ----------------- |
 | testEstructuraCorrecta | Asegurar que la fórmula tenga números entre cada operador | Operations.MakeFormula() | true |
-| id2 | prop2 | entr2 | sal2 |
+| testNoEmpiezaConOperador | Asegurar que la fórmula no empiece con operador |  | true |
+| testAlMenosDosNumerosParaOperar | Asegurar que la fórmula tenga dos números para realizar la operación | entr2 | true |
+| testValorEsperado |  | entr2 | sal2 ||
+
 
 ## Capturas de Ejecución de Pruebas
 
