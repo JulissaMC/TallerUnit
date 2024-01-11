@@ -1,5 +1,7 @@
 # Taller JUnit Grupo 8
 
+**NOTA:** Tuvimos inconvenientes para ejecutar en NetBeans, las pruebas fueron ejecutadas en Visual Studio Code.
+
 ## Integrantes
 
 - LEÓN MARQUEZ OLIVIER RAPHAEL
@@ -14,3 +16,11 @@
 | id2 | prop2 | entr2 | sal2 |
 
 ## Capturas de Ejecución de Pruebas
+
+### Lista de pruebas
+
+![Lista de pruebas](capturas/lista_pruebas.jpg)
+
+### Prueba Fallida: TestResuelveConValoresNegativos
+
+![Prueba fallida](capturas/prueba_fallida.png)
