@@ -12,7 +12,7 @@
 
 | Identificador | Propósito | Entradas | Salidas esperadas |
 | ------------- | --------- | -------- | ----------------- |
-| id1 | prop1 | entr1 | sal1 |
+| testEstructuraCorrecta | Asegurar que la fórmula tenga números entre cada operador | Operations.MakeFormula() | true |
 | id2 | prop2 | entr2 | sal2 |
 
 ## Capturas de Ejecución de Pruebas
