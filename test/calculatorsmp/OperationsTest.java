@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class OperationsTest {
     
     private Operations calculadora;
-    
+    private String formula;
     public OperationsTest() {
     }
     
@@ -64,6 +64,21 @@ public class OperationsTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+    }
+    
+    @Test
+    public void notNull(){
+        assertNotNull(formula);
+    }
+    
+    @Test
+    public void notEmpty(){
+        assertFalse(formula.isEmpty());
+    }
+    
+    @Test
+    public void EstructuraCorrecta(){
+        assertTrue(formula.matches("\\d+[+\\-\\*]\\d+"));
     }
     
 }
