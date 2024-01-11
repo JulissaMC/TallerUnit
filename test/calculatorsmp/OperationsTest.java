@@ -81,4 +81,13 @@ public class OperationsTest {
         assertTrue(formula.matches("\\d+[+\\-\\*]\\d+"));
     }
     
+    @Test
+    public void noGenerarNumerosNegativos(){
+        assertFalse(formula.matches(".*\\-\\d+.*"));
+    }
+    
+    @Test
+    public void alMenosDosNumerosParaOperar(){
+        assertTrue(formula.matches(".*\\d+.*\\d+.*"));
+    }
 }
